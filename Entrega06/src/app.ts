@@ -96,6 +96,7 @@ export class App {
 
     moveBikeTo(bikeId: string, location: Location) {
         const bike = this.bikes.find(bike => bike.id === bikeId)
+        if (bike == undefined) throw new Error("Não existe essa bicicleta seu idiota")
         bike.location.latitude = location.latitude
         bike.location.longitude = location.longitude
     }

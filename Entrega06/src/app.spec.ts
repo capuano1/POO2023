@@ -32,5 +32,10 @@ describe('App', () => {
     })
 
     it('should throw an exception when trying to move an unregistered bike', () => {
+        expect(() => {
+            const app = new App()
+            const newYork = new Location(40.753056, -73.983056)
+            app.moveBikeTo('UYTRYREUREUREUE', newYork)
+        }).toThrowError()
     })
 })
