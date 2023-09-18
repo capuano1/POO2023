@@ -36,7 +36,8 @@ export class App {
 
     findBike(bike: Bike): void {
         /*Seria mais ou menos assim que funcionaria, porém não consegui achar uma API que não fosse
-        paga e que pudesse servir neste quesito (achei apenas a Geolocation API).
+        paga e que pudesse servir neste quesito (achei apenas a Geolocation API, que não soube usar e
+        parece ser pago).
         */
         //this.bike.lat = this.getcurrentposition.latitude
         //this.bike.long = this.getcurrentposition.longitude
