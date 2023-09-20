@@ -10,3 +10,4 @@ Entrega 04: Alteração da modelagem de bikes: Não temos reservas, altera princ
 Entrega 05: Implementar localização na bike e método na App para atualizar a localização
 Entrega 06: Implementar o teste de exceção caso tente mover uma bike não existente, e faça com que o programa lance tal exceção sob essas condições
 Entrega 07: Criar testes para todos os métodos da App (menos os de listagem)
+*Entrega07_FINAL: O professor fez alguns testes em sala para a Entrega07, agora usando arquivos .ts de erros. Então, refiz de acordo com o novo formato
