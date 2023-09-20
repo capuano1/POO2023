@@ -15,6 +15,8 @@ export class App {
         return this.users.find(user => user.email === email)
     }
 
+    
+
     async registerUser(user: User): Promise<string> {
         for (const rUser of this.users) {
             if (rUser.email === user.email) {
