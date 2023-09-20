@@ -9,3 +9,4 @@ Entrega 03: Listagem de Usuários, Listagem de Rents, Listagem de Bikes, Autenti
 Entrega 04: Alteração da modelagem de bikes: Não temos reservas, altera principalmente rentBike e returnBike, bike agora tem disponibilidade (entrega de fim de aula, com base no que foi feito em aula)
 Entrega 05: Implementar localização na bike e método na App para atualizar a localização
 Entrega 06: Implementar o teste de exceção caso tente mover uma bike não existente, e faça com que o programa lance tal exceção sob essas condições
+Entrega 07: Criar testes para todos os métodos da App (menos os de listagem)
