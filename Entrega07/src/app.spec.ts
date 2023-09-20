@@ -30,6 +30,20 @@ describe('App', () => {
         expect(isValid).toBe(true)
     })
 
+    it('should correctly register bike', () => {
+        const app = new App()
+        const bike = new Bike('caloi mountainbike', 'mountain bike',
+            1234, 1234, 100.0, 'My bike', 5, [])
+        const id = app.registerBike(bike)
+        expect(id).not.toBeUndefined()
+    })
+
+    it('should correctly remove user', async() => {
+        const app = new App()
+        const user = new User('Jose', 'jose@mail.com', '1234')
+        const id = await app.registerUser(user)
+    })
+
     it('should correctly calculate the rent amount', async () => {
         const app = new App()
         const user = new User('Jose', 'jose@mail.com', '1234')
