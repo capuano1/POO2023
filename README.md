@@ -18,3 +18,4 @@ Entrega 10: Implementar o teste e o que for necessário para não deixar a aplic
 Entrega 11: Quiz sobre teste automatizado
 Entrega 12: Apresentação de trabalho Banco de Dados + Programação Orientada a Objetos
 Entrega 13: Implemente o PrismaBikeRepo que será semelhante ao PrismaUserRepo que fizemos em sala. Implemente os testes também.
+Entrega 14: Implementar o Endpoint de cadastro de bikes e os testes necessários, assim como o de cadastro de usuários feito em aula
