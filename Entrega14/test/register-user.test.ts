@@ -25,7 +25,7 @@ describe('Register user route', () => {
             })
     })
 
-    it.only('returns 400 when trying to register duplicate user', async () => {
+    it('returns 400 when trying to register duplicate user', async () => {
         await request(server)
             .post('/api/users')
             .send({
