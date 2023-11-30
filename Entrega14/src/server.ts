@@ -57,8 +57,8 @@ server.post('/api/bike', async (req, res) => {
         const id = await app.registerBike(req.body)
         res.status(201).json({ id })
     } catch (e) {
-        res.status(400).json({
-            message: 'Could not register bike'
+        res.status(500).json({
+            message: 'Could not register bike.'
         })
     }
 })
